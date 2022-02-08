@@ -1,0 +1,28 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.7
+
+workflows:
+  sample:
+    jobs:
+      - build-and-test:
+          filters:
+            branches:
+              only: dev
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/node:17.4.0
+    resource_class: small
+    steps:
+      - checkout
+      - run:
+          name: Install Elm runtime
+          command: sudo npm install elm -g
+      - run:
+          name: Install Elm-spa
+          command: sudo npm install -g elm-spa@latest
+      - run:
+          name: Compile Elm
+          command: elm-spa build
