@@ -53,16 +53,9 @@ viewMain =
                         [ li []
                             [ a
                                 [ Attr.id "email"
-                                , Attr.itemprop "email"
                                 , Attr.class "private u-email email text-decoration-none"
-                                , Attr.href "/cdn-cgi/l/email-protection#84eaede7efc4ebeaedeaf0ede9e1aae7ebe9"
                                 ]
-                                [ span
-                                    [ Attr.class "__cf_email__"
-                                    , Attr.attribute "data-cfemail" "a5cbccc6cee5cacbcccbd1ccc8c08bc6cac8"
-                                    ]
-                                    [ text "[email protected]" ]
-                                ]
+                                [ text "nick@onintime.com" ]
                             ]
                         , li []
                             [ a
