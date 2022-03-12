@@ -29,11 +29,11 @@ viewMain =
                 ]
                 [ text "What is this?" ]
             , p []
-                [ text "This page mainly acts as a third party source for information like public keys, key fingerprints, or onion links to various organizations and websites. The information here should always match the information publicly available on these groups’s respective websites. If you receive information about the projects below that differ from what is on this page, please", a
+                [ text "This page mainly acts as a third party source for information like public keys, key fingerprints, or onion links to various organizations and websites. The information here should always match the information publicly available on these groups’s respective websites. If you receive information about the projects below that differ from what is on this page, please ", a
                     [ Attr.href (Route.toHref Route.Contact)
                     ]
                     [ text "contact me" ]
-                , text "immediately." ]
+                , text " immediately." ]
             , h2
                 [ Attr.id "onion-links"
                 ]
