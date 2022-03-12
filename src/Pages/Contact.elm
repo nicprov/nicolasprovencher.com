@@ -53,18 +53,6 @@ viewMain =
                     , a [ href "https://www.linkedin.com/in/nicolas-provencher/" ]
                         [ text "Nicolas Provencher" ]
                     ]
-                , h2 [ id "cryptocurrency" ]
-                    [ text "Cryptocurrency" ]
-                , p []
-                    [ text "Bitcoin (BTC) "
-                    , code [ Attr.class "highlighter-rouge" ]
-                        [ text "39STYBTZ6UCRfNdnXr2oZmYDBbJc88ioKV" ]
-                    ]
-                , p []
-                    [ text "Dogecoint (DOGE) "
-                    , code [ Attr.class "highlighter-rouge" ]
-                        [ text "A5DPRSfVUTry2rXrrAHAqinSbjew4m68L2" ]
-                    ]
                 , h2 [ id "domains" ]
                     [ text "Domains" ]
                 , p []
