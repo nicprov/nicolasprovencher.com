@@ -28,7 +28,7 @@ viewMain =
                 , code [ Attr.class "highlighter-rouge" ]
                     [ text "1746F7E3646887DDC323622C9D98FA342C7098D3" ]
                 , text "["
-                , a [ href "https://nicolasprovencher.com/pubkey.asc" ]
+                , a [ href "https://cdn.onintime.com/pubkey.asc" ]
                     [ text "Download" ]
                 , text "] ["
                 , a [ Attr.class "proof", Attr.href "https://keyoxide.org/1746F7E3646887DDC323622C9D98FA342C7098D3", Attr.target "_blank" ]
@@ -39,8 +39,8 @@ viewMain =
                 [ text "Email" ]
             , p []
                 [ text "Primary "
-                , a [ href "mailto:nick@onintime.com" ]
-                    [ text "nick@onintime.com" ]
+                , a [ href "mailto:2209c302-468c-43fc-a93b-1824ccb4042f@unitmoon.com" ]
+                    [ text "2209c302-468c-43fc-a93b-1824ccb4042f@unitmoon.com" ]
                 ]
             , h2 [ id "other" ]
                 [ text "Other" ]
