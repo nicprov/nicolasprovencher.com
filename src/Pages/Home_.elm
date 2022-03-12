@@ -55,7 +55,7 @@ viewMain =
                                 [ Attr.id "email"
                                 , Attr.class "private u-email email text-decoration-none"
                                 ]
-                                [ text "nick@onintime.com" ]
+                                [ text "2209c302-468c-43fc-a93b-1824ccb4042f@unitmoon.com" ]
                             ]
                         , li []
                             [ a
